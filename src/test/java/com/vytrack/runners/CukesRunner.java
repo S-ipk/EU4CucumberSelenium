@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", //features
         glue = "com/vytrack/step_definitions", // your test case steps
         dryRun =false,
-        tags = "@smoke"
+        tags = "@wip"
 
 )
 
