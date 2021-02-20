@@ -1,7 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: com.vytrack.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.179 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
-Sales manager user(Account types)  Time elapsed: 13.818 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 45.423 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Sales manager user(Account types)  Time elapsed: 14.927 s  <<< FAILURE!
 java.lang.AssertionError
+
+Store manager user(Account types)  Time elapsed: 15.451 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macs-MBP-3.cust.communityfibre.co.uk', ip: '2a02:6b61:d03b:0:e4fe:c37:37ea:60a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/9q/bgk5fl191_j...}, goog:chromeOptions: {debuggerAddress: localhost:50672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0efc7caafe59968cafb6e68aa199b47
+*** Element info: {Using=xpath, value=//span[normalize-space()='Contacts' and contains(@class, 'title title-level-2')]}
+
+Store manager user(Account types)  Time elapsed: 15.453 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macs-MBP-3.cust.communityfibre.co.uk', ip: '2a02:6b61:d03b:0:e4fe:c37:37ea:60a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/9q/bgk5fl191_j...}, goog:chromeOptions: {debuggerAddress: localhost:50672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0efc7caafe59968cafb6e68aa199b47
 

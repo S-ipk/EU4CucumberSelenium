@@ -48,8 +48,10 @@ formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_title_contains(LoginStepDefs.java:71)\n\tat ✽.the title contains \"Calendar Events - Activities\"(file:///Users/SafiyeIpek/IdeaProjects/EU4CucumberSelenium/src/test/resources/features/AccountTypes.feature:7)\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
